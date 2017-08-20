@@ -9,9 +9,10 @@ Udemy
 This is an Udemy documentation.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    
    install
+   api
 
 
 
