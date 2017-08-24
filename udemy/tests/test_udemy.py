@@ -13,13 +13,18 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
-from __future__ import print_function
+import unittest
 
 from udemy import Udemy
 
 
-def main():
-    """main
-    """
-    my_udemy = Udemy(url='xxxx', token='xxxx')
-    return my_udemy
+class TestUdemy(unittest.TestCase):
+
+    def test_api_version(self):
+        self.assertEqual(
+            Udemy(url='https://www.udemy.com', token='xxxx').api_version,
+            'api-2.0')
+
+
+if __name__ == '__main__':
+    unittest.main()

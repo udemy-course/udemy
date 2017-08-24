@@ -36,6 +36,8 @@ class Udemy(object):
 
     @property
     def api_version(self):
+        """return api version
+        """
         return self._api_version
 
     def _set_token(self, token):
