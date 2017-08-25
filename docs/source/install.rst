@@ -53,7 +53,7 @@ Subsection2.1
 Reference
 =========
 
-.._ Sphinx Home: http://sphinx.pocoo.org
+.. _Sphinx Home: http://sphinx.pocoo.org
 
 
 .. [1] this is reference link
