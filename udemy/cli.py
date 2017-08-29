@@ -22,4 +22,8 @@ def main():
     """main
     """
     my_udemy = Udemy(url='xxxx', token='xxxx')
-    return my_udemy
+    print(type(my_udemy))
+
+
+if __name__ == '__main__':
+    print(main())
