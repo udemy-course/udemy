@@ -16,7 +16,7 @@
 import requests
 
 __title__ = 'python-udemy'
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 __author__ = 'penxiao'
 __email__ = 'xiaoquwl@gmail.com'
 
